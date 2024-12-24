@@ -27,6 +27,7 @@ cd miner
 ```yaml
 nano .env
 ```
+Let's enter the following codes into nano .env
 
 ```yaml
 VANA_PRIVATE_KEY=abcdefabcef
