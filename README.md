@@ -1,12 +1,11 @@
 # Sixgpt
 
 # About
-SixGPT is a decentralized synthetic data generation platform built on the Vana network. We empower users by giving them ownership of their data and enabling them to earn from it.
-The SixGPT Miner is a software package which allows users to contribute data they generate for wikipedia question-answer based tasks to the network for rewards. In the future, we will support other tasks such as chatbot conversations, image captioning, etc.
+SixGPT, Vana ağı üzerine inşa edilmiş merkezi olmayan bir sentetik veri üretim platformudur. Kullanıcılara verilerinin sahipliğini vererek ve bundan kazanç elde etmelerini sağlayarak onları güçlendiriyoruz. SixGPT Miner, kullanıcıların wikipedia soru-cevap tabanlı görevler için ürettikleri verileri ödüller karşılığında ağa katkıda bulunmalarını sağlayan bir yazılım paketidir. Gelecekte, sohbet robotu konuşmaları, resim altyazısı vb. gibi diğer görevleri de destekleyeceğiz,
 
 # Prerequisites
-- Fund your wallet with at least 0.1 $VANA
-- Login with this wallet on sixgpt.xyz
+- Cüzdanınıza en az 0,1 $VANA ile para yatırın
+- Bu cüzdan ile buraya giriş yapın sixgpt.xyz
 
 # Run the miner
 ```yaml
@@ -27,7 +26,7 @@ cd miner
 ```yaml
 nano .env
 ```
-Let's enter the following codes into nano .env
+Aşağıdaki kodları nano .env dosyasına girelim
 
 ```yaml
 VANA_PRIVATE_KEY=abcdefabcef
@@ -43,6 +42,6 @@ docker-compose up -d
 docker-compose logs -f
 ```
 # Notes
-- You must have logged into sixgpt.xyz with your wallet before running the miner
-- Make sure the wallet associated with your vana private key has enough $VANA balance on the desired network (at least 0.1)
+- Madenciyi çalıştırmadan önce sixgpt.xyz'e cüzdanınızla giriş yapmış olmalısınız
+- Vana özel anahtarınızla ilişkili cüzdanınızda yeterli $VANA bakiyesine sahip olduğundan emin olun (mainnet'te en az 0,1)
 
